@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "video-card",
+  "type": "registry:component",
+  "title": "Reusable Video Card",
+  "description": "Tailwind Reusable Video Card",
+  "dependencies": [
+    "@radix-ui/react-label"
+  ],
+  "registryDependencies": [
+    "input"
+  ],
+  "files": [
+    {
+      "path": "app/registry/ui/video-card.tsx",
+      "content": "export const VideoCard = () => {\n  return <div> TODO </div>;\n};\n",
+      "type": "registry:component"
+    }
+  ]
+}

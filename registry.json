@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "gridbank.io",
+  "homepage": "https://registry.gridbank.io",
+  "items": [
+    {
+      "name": "video-card",
+      "type": "registry:component",
+      "title": "Reusable Video Card",
+      "description": "Tailwind Reusable Video Card",
+      "dependencies": ["@radix-ui/react-label"],
+      "registryDependencies": ["input"],
+      "files": [
+        {
+          "path": "app/registry/ui/video-card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
